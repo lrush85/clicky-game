@@ -1,0 +1,18 @@
+    .footer {
+    margin-top: 40px;
+    background: #0d5578;
+    height: 100px;
+    position: relative;
+    color: #fff;
+    overflow: auto;
+    }
+
+    .footer>.bottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #0d5585;
+    padding: 8px;
+    font-weight: 600;
+    }
