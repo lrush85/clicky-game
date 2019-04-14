@@ -1,0 +1,102 @@
+#row {
+   display: flex;
+   margin: 0 auto;
+   width: 70%;
+   flex-wrap: wrap;
+}
+
+.game-name {
+   margin-top: -30px;
+   text-align: center;
+   background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTt4ygPl5rEXWo8j8U1LE1q0RJaHhQ_Uk6jSaGGU8YOk3LGJEIe');
+   width: 100%;
+   height: 350px;
+   border-bottom: 8px solid #0d5585;
+}
+
+.game-name h1 {
+   padding-top: 110px;
+   font-size: 50px;
+   color: #0d5585;
+   font-weight: 600;
+}
+
+.game-name p {
+   font-size: 20px;
+   font-weight: 600;
+   color: #0d5585b2
+}
+
+@media screen and (max-width: 2560px) {
+   #row {
+      width: 80%;
+   }
+   .game-name h1 {
+      font-size: 70px;
+   }
+
+   .game-name p {
+      font-size: 26px;
+   }
+}
+
+@media screen and (max-width: 1920px) {
+   #row {
+      width: 50%;
+   }
+}
+
+@media screen and (max-width: 1440px) {
+   #row {
+      width: 60%;
+   }
+   .game-name h1 {
+      font-size: 60px;
+   }
+
+   .game-name p {
+      font-size: 24px;
+   }
+}
+
+@media screen and (max-width: 1024px) {
+   #row {
+      width: 90%
+   }
+   .game-name {
+      margin-top: -60px;
+   }
+}
+
+@media screen and (max-width: 768px) {
+   #row {
+      width: 80%
+   }
+   .game-name {
+      margin-top: -80px;
+   }
+   .game-name h1 {
+      font-size: 50px;
+   }
+
+   .game-name p {
+      font-size: 22px;
+   }
+}
+
+@media screen and (max-width: 425px) {
+   #row {
+      width: 90%;
+   }
+
+   .game-name {
+      margin-top: 0px;
+   }
+   .game-name h1 {
+      font-size: 34px;
+   }
+
+   .game-name p {
+      font-size: 16px;
+   }
+}

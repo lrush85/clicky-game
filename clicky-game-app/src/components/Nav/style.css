@@ -13,10 +13,28 @@
         white-space: nowrap;
 }
 
+ul {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  
+}
+
 .navbar li {
     list-style-type: none;
-    display: inline-block;
     padding: 26px 0;
-    width: 60.3%;
+}
+
+
+@media screen and (max-width: 425px) {
+  ul {
+    flex-direction: column;
+    justify-content: space-evenly;
     text-align: center;
+    padding-right: 30px;
+  }
+
+  .brand {
+    font-size: 20px;
+  }
 }
